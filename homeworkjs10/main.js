@@ -9,7 +9,7 @@ document.addEventListener("keydown", function(event) {
       document.body.style.backgroundColor = 'blue';
     } else if (event.key === 'w') {
       document.body.style.backgroundColor = 'white';
-    } else if (event.key === 'g' && event.shiftKey) {
+    } else if (event.key === 'a' && event.shiftKey) {
       document.body.style.backgroundColor = 'gray';
     }
   });
